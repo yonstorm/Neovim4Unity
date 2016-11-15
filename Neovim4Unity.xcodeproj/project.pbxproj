@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDBC85551DDB7D3300C4F8E2 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBC85541DDB7D3300C4F8E2 /* AppleScriptObjC.framework */; };
+		EDBC85591DDB7D3300C4F8E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBC85581DDB7D3300C4F8E2 /* main.m */; };
+		EDBC855B1DDB7D3300C4F8E2 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = EDBC855A1DDB7D3300C4F8E2 /* AppDelegate.applescript */; };
+		EDBC855D1DDB7D3300C4F8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBC855C1DDB7D3300C4F8E2 /* Assets.xcassets */; };
+		EDBC85601DDB7D3400C4F8E2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDBC855E1DDB7D3400C4F8E2 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDBC85511DDB7D3300C4F8E2 /* Neovim4Unity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neovim4Unity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBC85541DDB7D3300C4F8E2 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		EDBC85581DDB7D3300C4F8E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDBC855A1DDB7D3300C4F8E2 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		EDBC855C1DDB7D3300C4F8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDBC855F1DDB7D3400C4F8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EDBC85611DDB7D3400C4F8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDBC854E1DDB7D3300C4F8E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBC85551DDB7D3300C4F8E2 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDBC85481DDB7D3300C4F8E2 = {
+			isa = PBXGroup;
+			children = (
+				EDBC85561DDB7D3300C4F8E2 /* Neovim4Unity */,
+				EDBC85531DDB7D3300C4F8E2 /* Frameworks */,
+				EDBC85521DDB7D3300C4F8E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDBC85521DDB7D3300C4F8E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDBC85511DDB7D3300C4F8E2 /* Neovim4Unity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDBC85531DDB7D3300C4F8E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDBC85541DDB7D3300C4F8E2 /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDBC85561DDB7D3300C4F8E2 /* Neovim4Unity */ = {
+			isa = PBXGroup;
+			children = (
+				EDBC855A1DDB7D3300C4F8E2 /* AppDelegate.applescript */,
+				EDBC855C1DDB7D3300C4F8E2 /* Assets.xcassets */,
+				EDBC855E1DDB7D3400C4F8E2 /* MainMenu.xib */,
+				EDBC85611DDB7D3400C4F8E2 /* Info.plist */,
+				EDBC85571DDB7D3300C4F8E2 /* Supporting Files */,
+			);
+			path = Neovim4Unity;
+			sourceTree = "<group>";
+		};
+		EDBC85571DDB7D3300C4F8E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDBC85581DDB7D3300C4F8E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDBC85501DDB7D3300C4F8E2 /* Neovim4Unity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBC85641DDB7D3400C4F8E2 /* Build configuration list for PBXNativeTarget "Neovim4Unity" */;
+			buildPhases = (
+				EDBC854D1DDB7D3300C4F8E2 /* Sources */,
+				EDBC854E1DDB7D3300C4F8E2 /* Frameworks */,
+				EDBC854F1DDB7D3300C4F8E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neovim4Unity;
+			productName = Neovim4Unity;
+			productReference = EDBC85511DDB7D3300C4F8E2 /* Neovim4Unity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDBC85491DDB7D3300C4F8E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Yonstorm;
+				TargetAttributes = {
+					EDBC85501DDB7D3300C4F8E2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDBC854C1DDB7D3300C4F8E2 /* Build configuration list for PBXProject "Neovim4Unity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDBC85481DDB7D3300C4F8E2;
+			productRefGroup = EDBC85521DDB7D3300C4F8E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDBC85501DDB7D3300C4F8E2 /* Neovim4Unity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDBC854F1DDB7D3300C4F8E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBC855D1DDB7D3300C4F8E2 /* Assets.xcassets in Resources */,
+				EDBC85601DDB7D3400C4F8E2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDBC854D1DDB7D3300C4F8E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBC855B1DDB7D3300C4F8E2 /* AppDelegate.applescript in Sources */,
+				EDBC85591DDB7D3300C4F8E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDBC855E1DDB7D3400C4F8E2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDBC855F1DDB7D3400C4F8E2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDBC85621DDB7D3400C4F8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EDBC85631DDB7D3400C4F8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EDBC85651DDB7D3400C4F8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Neovim4Unity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yonstorm.Neovim4Unity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDBC85661DDB7D3400C4F8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Neovim4Unity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yonstorm.Neovim4Unity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDBC854C1DDB7D3300C4F8E2 /* Build configuration list for PBXProject "Neovim4Unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBC85621DDB7D3400C4F8E2 /* Debug */,
+				EDBC85631DDB7D3400C4F8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBC85641DDB7D3400C4F8E2 /* Build configuration list for PBXNativeTarget "Neovim4Unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBC85651DDB7D3400C4F8E2 /* Debug */,
+				EDBC85661DDB7D3400C4F8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDBC85491DDB7D3300C4F8E2 /* Project object */;
+}
