@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0393FE1DDDCEF600C66089 /* helperMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0393FD1DDDCEF600C66089 /* helperMethods.m */; };
+		ED0394001DDF301700C66089 /* SettingsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0393FF1DDF301700C66089 /* SettingsWindow.xib */; };
+		ED0394021DDF317400C66089 /* Settings.applescript in Sources */ = {isa = PBXBuildFile; fileRef = ED0394011DDF317400C66089 /* Settings.applescript */; };
 		EDBC85551DDB7D3300C4F8E2 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBC85541DDB7D3300C4F8E2 /* AppleScriptObjC.framework */; };
 		EDBC85591DDB7D3300C4F8E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBC85581DDB7D3300C4F8E2 /* main.m */; };
 		EDBC855B1DDB7D3300C4F8E2 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = EDBC855A1DDB7D3300C4F8E2 /* AppDelegate.applescript */; };
 		EDBC855D1DDB7D3300C4F8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBC855C1DDB7D3300C4F8E2 /* Assets.xcassets */; };
 		EDBC85601DDB7D3400C4F8E2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDBC855E1DDB7D3400C4F8E2 /* MainMenu.xib */; };
+		EDFF74A81DE5AEB300C01FFF /* EditorController.applescript in Sources */ = {isa = PBXBuildFile; fileRef = EDFF74A71DE5AEB300C01FFF /* EditorController.applescript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED0393FC1DDDCEF600C66089 /* helperMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helperMethods.h; sourceTree = "<group>"; };
+		ED0393FD1DDDCEF600C66089 /* helperMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helperMethods.m; sourceTree = "<group>"; };
+		ED0393FF1DDF301700C66089 /* SettingsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsWindow.xib; sourceTree = "<group>"; };
+		ED0394011DDF317400C66089 /* Settings.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = Settings.applescript; sourceTree = "<group>"; };
 		EDBC85511DDB7D3300C4F8E2 /* Neovim4Unity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neovim4Unity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBC85541DDB7D3300C4F8E2 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		EDBC85581DDB7D3300C4F8E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -22,6 +30,7 @@
 		EDBC855C1DDB7D3300C4F8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDBC855F1DDB7D3400C4F8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EDBC85611DDB7D3400C4F8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFF74A71DE5AEB300C01FFF /* EditorController.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = EditorController.applescript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,9 @@
 				EDBC855A1DDB7D3300C4F8E2 /* AppDelegate.applescript */,
 				EDBC855C1DDB7D3300C4F8E2 /* Assets.xcassets */,
 				EDBC855E1DDB7D3400C4F8E2 /* MainMenu.xib */,
+				EDFF74A71DE5AEB300C01FFF /* EditorController.applescript */,
+				ED0393FF1DDF301700C66089 /* SettingsWindow.xib */,
+				ED0394011DDF317400C66089 /* Settings.applescript */,
 				EDBC85611DDB7D3400C4F8E2 /* Info.plist */,
 				EDBC85571DDB7D3300C4F8E2 /* Supporting Files */,
 			);
@@ -77,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				EDBC85581DDB7D3300C4F8E2 /* main.m */,
+				ED0393FC1DDDCEF600C66089 /* helperMethods.h */,
+				ED0393FD1DDDCEF600C66089 /* helperMethods.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +155,7 @@
 			files = (
 				EDBC855D1DDB7D3300C4F8E2 /* Assets.xcassets in Resources */,
 				EDBC85601DDB7D3400C4F8E2 /* MainMenu.xib in Resources */,
+				ED0394001DDF301700C66089 /* SettingsWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0393FE1DDDCEF600C66089 /* helperMethods.m in Sources */,
 				EDBC855B1DDB7D3300C4F8E2 /* AppDelegate.applescript in Sources */,
+				EDFF74A81DE5AEB300C01FFF /* EditorController.applescript in Sources */,
+				ED0394021DDF317400C66089 /* Settings.applescript in Sources */,
 				EDBC85591DDB7D3300C4F8E2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +318,7 @@
 				EDBC85661DDB7D3400C4F8E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
